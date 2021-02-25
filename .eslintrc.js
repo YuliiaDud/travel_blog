@@ -9,5 +9,12 @@ module.exports = {
         "sourceType": "module"
     },
     "rules": {
-    }
+        'jsx-quotes': [
+            1, 
+            'prefer-double'
+        ]
+    },
+    "plugins": [
+        "prettier"
+    ]
 };
